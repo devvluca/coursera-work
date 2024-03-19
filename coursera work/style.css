@@ -1,0 +1,60 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex-grow: 1;
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.title {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.content {
+    padding: 10px;
+}
+
+@media (max-width: 991px) {
+    .section {
+        width: 100%;
+    }
+
+    .section:nth-child(3) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        text-align: left;
+    }
+}
