@@ -1,4 +1,4 @@
-Página Responsiva
+## Página Responsiva ##
 Projeto de página web responsiva com HTML e CSS.
 
 index.html: Estrutura da página.
