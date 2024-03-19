@@ -1,3 +1,16 @@
+## Responsive Page ##
+Responsive web page project using HTML and CSS.
+
+Project Structure
+index.html: Contains the page structure.
+css/styles.css: CSS file with page styles.
+Features
+Responsive layout for various devices.
+Organized sections with title and content.
+
+
+
+
 ## Página Responsiva ##
 Projeto de página web responsiva com HTML e CSS.
 
